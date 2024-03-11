@@ -15,8 +15,8 @@ class OnBoardingScreen extends StatelessWidget {
         subTitleTextStyle: const TextStyle(fontSize: 18,color: Color.fromRGBO(8, 44, 80, 0.5)),
         imageWidth: 500,
         imageHeight: 300,
-        title: 'The most important features',
-        subTitle: 'Enjoy the latest exceptional features that our application brings for you',
+        title: 'Unmatched Quality & Prices',
+        subTitle: 'Qualified & verified professionals',
         imageUrl: 'assets/images/onboradrding_1.png',
       ),
       Introduction(
@@ -24,18 +24,9 @@ class OnBoardingScreen extends StatelessWidget {
         subTitleTextStyle: const TextStyle(fontSize: 18,color: Color.fromRGBO(8, 44, 80, 0.5)),
         imageWidth: 500,
         imageHeight: 300,
-        title: 'Can Shop Any Thing ',
-        subTitle: 'You can now buy anything at any time through our application',
+        title: 'Full House Keeping ',
+        subTitle: 'the best quality service, at the best price',
         imageUrl: 'assets/images/onBoarding_2.png',
-      ),
-      Introduction(
-        titleTextStyle: const TextStyle(fontSize: 22,fontWeight: FontWeight.bold),
-        subTitleTextStyle: const TextStyle(fontSize: 18,color: Color.fromRGBO(8, 44, 80, 0.5)),
-        imageWidth: 500,
-        imageHeight: 300,
-        title: 'Your happy moments',
-        subTitle: 'You can spend and share the best special moments with your special friends',
-        imageUrl: 'assets/images/onBoarding_3.png',
       ),
     ];
 

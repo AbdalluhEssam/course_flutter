@@ -1,12 +1,12 @@
 import 'package:course_flutter/core/ui/color.dart';
-import 'package:course_flutter/screen/view/auth/signup_screen.dart';
+import 'package:course_flutter/screen/view/auth/login_screen.dart';
 import 'package:course_flutter/screen/view/home/home_screen.dart';
 import 'package:course_flutter/screen/widget/auth/custom_materialButton.dart';
 import 'package:course_flutter/screen/widget/auth/cutom_textFromField.dart';
 import 'package:flutter/material.dart';
 
-class LogInScreen extends StatelessWidget {
-  const LogInScreen({super.key});
+class SignUpScreen extends StatelessWidget {
+  const SignUpScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -27,7 +27,7 @@ class LogInScreen extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               mainAxisSize: MainAxisSize.max,
               children: [
-                Image.asset("assets/images/logo.png", width: 300, fit: BoxFit.cover,),
+                Image.asset("assets/images/logo.png", width: 200, fit: BoxFit.cover,),
                 const Text(
                   "Welcome back !",
                   style: TextStyle(fontSize: 32, fontWeight: FontWeight.w400),
@@ -40,7 +40,17 @@ class LogInScreen extends StatelessWidget {
                   height: 20,
                 ),
                 const CustomTextFormField(
+                    hintText: "Enter Your Name", icon: Icons.person_outline_sharp),
+                const SizedBox(
+                  height: 20,
+                ),
+                const CustomTextFormField(
                     hintText: "Enter Your Email", icon: Icons.person),
+                const SizedBox(
+                  height: 20,
+                ),
+                const CustomTextFormField(
+                    hintText: "Enter Your Phone", icon: Icons.call),
                 const SizedBox(
                   height: 20,
                 ),
@@ -49,24 +59,8 @@ class LogInScreen extends StatelessWidget {
                 const SizedBox(
                   height: 12,
                 ),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.end,
-                  children: [
-                    InkWell(
-                      onTap: () {},
-                      child: const Text("Forget password",
-                          style: TextStyle(
-                              fontSize: 16,
-                              fontWeight: FontWeight.w400,
-                              color: Colors.red)),
-                    ),
-                  ],
-                ),
-                const SizedBox(
-                  height: 20,
-                ),
                 CustomMaterialButton(
-                  text: "Login",
+                  text: "Create Account",
                   onPressed: () {
                     Navigator.of(context).push(MaterialPageRoute(
                       builder: (context) => const HomeScreen(),
@@ -156,10 +150,10 @@ class LogInScreen extends StatelessWidget {
                         InkWell(
                           onTap: () {
                             Navigator.of(context).push(MaterialPageRoute(
-                              builder: (context) => const SignUpScreen(),
+                              builder: (context) => const LogInScreen(),
                             ));
                           },
-                          child: const Text("Sign Up",
+                          child: const Text("Log In",
                               style: TextStyle(
                                 fontSize: 16,
                                 color: AppColor.primaryColor,

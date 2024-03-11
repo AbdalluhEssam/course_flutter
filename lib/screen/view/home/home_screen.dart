@@ -10,17 +10,15 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     List<String> image = [
-      "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg",
-      "https://images.unsplash.com/photo-1699694927472-46a4fcf68973?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "https://www.lifewire.com/thmb/cux3I6-7gd6cj4xPhAqckZIJiTA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/DSLR-camera-56e0b8ee5f9b5854a9f865ca.jpg",
-      "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg",
+      "https://insights.workwave.com/wp-content/uploads/2019/07/iStock-906777508-1024x683.jpg",
+      "https://5.imimg.com/data5/BI/QL/QW/SELLER-8763192/house-keeping-services-500x500.jpg",
+      "https://www.signalsaz.com/wp-content/uploads/2022/09/cleaning-service-housekeeping.jpg",
+
     ];
     List<String> imageCat = [
-      "https://img.freepik.com/premium-vector/realistic-mockup_9462-14.jpg",
-      "https://img.freepik.com/free-vector/new-modern-realistic-front-view-black-iphone-mockup-isolated-white-mobile-template-vector_90220-957.jpg?w=826&t=st=1706638340~exp=1706638940~hmac=b0ec6a318c8ee8ff78f03f4b3dff9fb1c1cccc1fcfc8eecf36d055e5237eba6f",
-      "https://img.freepik.com/premium-psd/modern-tv-isolated-transparent-background-3d-rendering-illustration_494250-94958.jpg?w=996",
-      "https://img.freepik.com/free-vector/digital-device-mockup_53876-89925.jpg?w=826&t=st=1706638409~exp=1706639009~hmac=4583d8b5082e897ada1f3fb5764c70f5583e6c716ec7be058f318a5a9d2ab944",
-      "https://img.freepik.com/free-psd/clock-isolated-transparent-background_191095-11168.jpg?w=826&t=st=1706638466~exp=1706639066~hmac=770c160b41e53223d0e9b86b3a60ac599ae1818e146fcbafefc4a6e814fa31f1",
+      "https://cdn-icons-png.flaticon.com/512/994/994941.png",
+      "https://cdn-icons-png.flaticon.com/512/3021/3021816.png",
+      "https://cdn-icons-png.freepik.com/512/4221/4221769.png",
     ];
     return Scaffold(
       appBar: AppBar(
@@ -159,11 +157,11 @@ class HomeScreen extends StatelessWidget {
                         children: [
                           CachedNetworkImage(
                               imageUrl:
-                                  "https://smhttp-ssl-73217.nexcesscdn.net/pub/media/catalog/product/cache/661473ab953cdcdf4c3b607144109b90/h/u/huawei-nova-y90-1.jpg",
+                                  "https://cdn-icons-png.flaticon.com/512/8634/8634252.png",
                               fit: BoxFit.cover),
                           const Padding(
                             padding: EdgeInsets.only(top: 8),
-                            child: Text("Mobile",
+                            child: Text("House Cleaning",
                                 style: TextStyle(
                                     fontWeight: FontWeight.bold, fontSize: 16)),
                           ),
@@ -176,14 +174,14 @@ class HomeScreen extends StatelessWidget {
                                       const Icon(Icons.shopping_cart_checkout)),
                               const Padding(
                                 padding: EdgeInsets.symmetric(horizontal: 8),
-                                child: Text("220 EG"),
+                                child: Text("550 EG"),
                               ),
                             ],
                           )
                         ],
                       ),
                     ),
-                    itemCount: 5,
+                    itemCount: 2,
                     gridDelegate:
                         const SliverGridDelegateWithFixedCrossAxisCount(
                             crossAxisCount: 2,
