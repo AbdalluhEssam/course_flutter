@@ -9,18 +9,24 @@ class Assets {
   static const String generatedAssets = 'lib/generated/assets.dart';
   static const String homeHomeScreen = 'lib/screen/view/home/home_screen.dart';
   static const String imagesAnimation  = 'assets/images/animation .json';
+  static const String imagesEleven = 'assets/images/eleven.jpg';
   static const String imagesFacebook = 'assets/images/facebook.png';
   static const String imagesGoogle = 'assets/images/google.png';
+  static const String imagesHigh = 'assets/images/high.jpg';
   static const String imagesImg = 'assets/images/img.png';
   static const String imagesImg1 = 'assets/images/img_1.png';
-  static const String imagesLogoclean = 'assets/images/logoclean.png';
+  static const String imagesLogo = 'assets/images/logo.png';
+  static const String imagesLow = 'assets/images/low.jpg';
   static const String imagesOnBoarding2 = 'assets/images/onBoarding_2.png';
   static const String imagesOnBoarding3 = 'assets/images/onBoarding_3.png';
   static const String imagesOnboradrding1 = 'assets/images/onboradrding_1.png';
+  static const String imagesSix = 'assets/images/six.jpg';
   static const String libMain = 'lib/main.dart';
   static const String uiColor = 'lib/core/ui/color.dart';
+  static const String viewNew = 'lib/screen/view/new.dart';
   static const String viewOnboardingScreen = 'lib/screen/view/onboarding_screen.dart';
+  static const String viewScreen2 = 'lib/screen/view/screen2.dart';
+  static const String viewScreen3 = 'lib/screen/view/screen3.dart';
   static const String viewSplashScreen = 'lib/screen/view/splash_screen.dart';
-  static const String viewText = 'lib/screen/view/text.dart';
 
 }

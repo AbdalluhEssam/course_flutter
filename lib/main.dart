@@ -1,4 +1,6 @@
+import 'package:course_flutter/screen/view/new.dart';
 import 'package:course_flutter/screen/view/onboarding_screen.dart';
+import 'package:course_flutter/screen/view/screen2.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -17,7 +19,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const OnBoardingScreen(),
+      home:  const HomePage2Screen(),
     );
   }
 }
